@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    
+    margin: -10px;
+    text-align: center;
+    padding-bottom: 12%;
+    background-image: url('images/bg_6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contain{
+    color: white;
+    padding: 0px;
+}
+.contain a{
+    margin: 10px;
+}
+ .contain a:hover{
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}
+.booking{
+    display: block;
+    background-color: orange;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.booking:hover{
+    display: block;
+    background-color: red;
+    
+}
+.wrapper h1{
+    color: white;
+   padding-top: 15%;
+    font-size: 6em;
+    font-family: 'Tangerine', cursive;
+}.wrapper  a{
+    color: white;
+    font-size: 1.5em;
+}
+.wrapper  a:hover{
+    color: lightgreen;
+    text-decoration: none;
+}
+.reservation{
+     text-align: center;
+     background-color:skyblue;
+}
+ .reservation h1{
+    padding: 90px;
+    font-family: 'Tangerine', cursive;
+    font-size: 5em;
+    color: red ;
+    
+}
+
+.reservation form{
+        text-align: left; 
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        clear: both;
+       
+}
+.reservation input{
+    background-color: transparent;
+    margin: 10px;
+    width: 50%;
+    margin-left: 40%;
+    color: black;
+}.reservation label{
+    margin-left: 40%;
+}
+.reservation select{
+    margin-left: 40%;
+    width: 50%;
+    padding: 10px;
+    background-color: transparent;
+}
+.reservation button{
+    width: 20%;
+    margin-left: 40%;
+    background-color:#ffb84d ;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    border: 2px solid orange;
+    font-size: 1.3em;
+}
+.reservation button:hover{
+        background-color: rgb(247, 14, 14);
+        
+}
+@media screen and (max-width:600px){
+    .reservation button{
+        width: 50%;
+    }
+    
+}
+
+
+.bottom{
+    background-color: black;
+    color: white;
+
+    text-align: center;
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bottom2{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;padding-bottom: 60px;
+ 
+}
+.bottomitems{
+    flex: 1;
+    
+}.bottom2 h1{
+    margin-bottom: 30px;
+}    .bottomitems input{
+   
+    margin:40% 20% 10px;
+    
+}
+.bottomitems h1{
+    margin-top: 30px;
+    font-family: 'Tangerine', cursive;
+}
+.bottomitems a{
+    color: white;
+}
+.bottomitems a:hover{
+    color: lightgreen;
+    text-decoration: none;
+
+}
+.bottomitems button,input{
+        background: transparent;
+        border: 1px solid gray;
+        color: white;
+        padding: 10px;
+}
+.bottomitems button:hover,input{
+    background-color: teal;
+    border: 1px solid gray;
+    color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px){
+      .bottomitems input{
+    margin:10% 20% 10px;
+}
+.bottomitems h1{
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 500px){
+    .bottom{
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .bottom2{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .bottomitems{
+        flex: 1;
+        
+    }.bottom2 h1{
+        margin-bottom: 30px;
+    }
+    .bottom2 p{
+        box-sizing: border-box;
+    }
+    .bottomitems h4{
+        margin-top: 60px;
+    }
+}
+.collage{
+    width: 100%;
+}
+.collage img{
+    width: 100%;
+    height: 100%;
+}
+.collage img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}

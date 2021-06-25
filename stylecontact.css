@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+   
+}
+.wrapper{
+    
+    margin: 0;
+    text-align: center;
+    padding-bottom: 12%;
+    background-image: url('images/bg_3.jpg');
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.contain{
+    color: white;
+    padding: 8px;
+   
+}
+.contain a{
+    margin: 10px;
+}
+ .contain a:hover{
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}
+.booking{
+    display: block;
+    background-color: orange;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.booking:hover{
+    display: block;
+    background-color: red;
+    
+}
+.wrapper h1{
+    color: white;
+   padding-top: 15%;
+    font-size: 6em;
+    font-family: 'Tangerine', cursive;
+}.wrapper  a{
+    color: white;
+    font-size: 1.5em;
+}
+.wrapper  a:hover{
+    color: lightgreen;
+    text-decoration: none;
+}
+.wrapper2 {
+    background-color: whitesmoke;
+    text-align: center;
+}.wrapitems2 h1{
+    font-family: 'Tangerine', cursive;
+    padding-top: 40px;
+}
+.wrapitems2 input{
+    text-align: center;
+    width: 60%;
+    margin: 15px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
+    box-sizing: border-box;
+}.wrapitems2 textarea{
+    padding: 10px;
+    background: transparent;
+    margin: 15px;
+    box-sizing: border-box;
+}.wrapitems2 button{
+   float: left;
+   margin-left: 150px;
+   box-sizing: border-box;
+   padding: 20px;
+   font-size: 1.3em;
+   color: white;
+   background-color: #ff8c1a;
+   border: 1px solid orange;
+   width:200px ;
+   margin-bottom: 10px;
+}
+.wrapitems2 button:hover{
+    background-color: red;
+}
+.wrapitems22{
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+.phone{
+    margin-top: 115px;
+}
+.mail{
+    margin-top: 115px;
+}
+.website{
+    margin-top: 115px;
+}
+.wrapitems22 a{
+color: orange;
+}
+.wrapitems22 a:hover{
+    color: lightgreen;
+    text-decoration: none;
+    }
+
+@media screen and (max-width:500px){
+    .wrapitems2 textarea{
+       width: 80%;
+    }
+    .wrapitems2 input{
+        width: 80%;
+    }
+    .wrapitems2 button{
+        margin-left: 35px;
+    }
+    .wrapitems22 address{
+        box-sizing: border-box;
+        width: 80%;
+        padding: 20px;
+    }
+     .phone{
+        margin-top: 40px;
+        text-align: left;
+        padding-left: 60px;
+    }
+    .mail{
+        margin-top: 40px;
+        text-align: left;
+        padding-left: 60px;
+    }
+    .website{
+        margin-top: 40px;
+        text-align: left;
+        padding-left: 60px;
+    }
+}
+.wrapper3{
+    padding: 80px 30px 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.wrapitems3:nth-child(1){
+  flex-basis: 25%;
+    box-sizing: border-box;
+    float: left;
+}
+.wrapitems3:nth-child(2){
+  flex-basis: 35%;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 50px 10px;
+}.wrapitems3:nth-child(3){
+  flex-basis: 15%;
+  box-sizing: border-box;
+  float: left;
+}.wrapitems3:nth-child(4) p{
+  padding: 10px 40px;
+  text-align: left;
+}
+.wrapitems3:nth-child(4) img{
+  padding-right: 20px;
+}.wrapitems3:nth-child(4) a{
+  text-decoration: none;
+  color: white;
+}
+.wrapitems3:nth-child(4) a:hover{
+  text-decoration: none;
+  color: red;
+}
+.wrapper3 h2{
+ padding-bottom: 30px;
+/* font-family: 'Caveat', cursive;*/
+ font-family: 'Tangerine', cursive;
+}
+.blog1{
+  width: 100%;
+}
+.blog1 img{
+  padding: 30px;
+}
+@media screen and (max-width:500px){
+    .wrapper3{
+        padding: 60px 30px 10px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapitems3:nth-child(1){
+      flex:1;
+        box-sizing: border-box;
+        padding-bottom: 40px;
+    }
+    .wrapitems3:nth-child(2){
+        flex-basis: 35%;
+        box-sizing: border-box;
+        float: left;
+        padding: 0 5px 10px;
+    }.wrapitems3:nth-child(3){
+     flex:1;
+      box-sizing: border-box;
+      padding-top: 50px;
+      padding-bottom: 80px;
+  }  
+  .wrapitems3:nth-child(4) p{
+    padding: 10px 10px;
+    text-align: left;
+}
+ 
+}
+.wrapper4{
+  display: flex;
+}

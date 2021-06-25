@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylehome.css">
+  <link  href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Molengo&family=Tangerine:wght@700&displ=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Document</title>
+  <style>  #scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color:rgba(0,0,0,0.7);
+    color: white;
+}
+#scrollUp:hover{
+  background-color: red;
+text-decoration: none;
+}
+</style>
+  <script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/clip_carousel.min.js"></script>
+<script>
+  $(function () {
+    $.scrollUp({
+      scrollSpeed: 1000,  
+      scrollText: 'Click to top',
+      scrollName: 'scrollUp'
+    });
+});
+</script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg contain">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+      <div class="navbar-nav ">
+        <a class="nav-item nav-link active booking" href="home.html">Home <span class="sr-only">(current)</span></a>
+        <!-- <a class="nav-item nav-link active booking" href="#">Portfolio</a> -->
+        <a class="nav-item nav-link active booking" href="menu.html">Menu</a>
+        <a class="nav-item nav-link active booking" href="about2.html">About</a>
+      <!--  <a class="nav-item nav-link active booking" href="#">Blog</a>-->
+        <a class="nav-item nav-link active booking" href="contact.html">Contact us</a>
+        <a class="nav-item nav-link active booking" href="bookingpage.php">Book Table</a>
+
+      </div>
+    </div>
+  </nav>
+  <br>
+
+  <div id="carouselExampleIndicators" class="carousel slide p-3 mb-5 bg-white rounded" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://1.bp.blogspot.com/-jbB3133iPIg/XvW-u6h662I/AAAAAAAAAb0/q2nsgQ9pv-4g3fnHiAZBulQDowrUpPTVACLcBGAsYHQ/s320/home1.jpg" class="d-block w-100  img-thumbnail" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://1.bp.blogspot.com/-0Tgiuv0bX5g/XvW-vZ04dNI/AAAAAAAAAb4/Z9v6RBROQtMr53pUbiwNb9Sz-QJ2FNNJQCLcBGAsYHQ/s320/home3.jpg" class="d-block w-100  img-thumbnail" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://1.bp.blogspot.com/-cRBZvPCnxEI/XvW-v3lUttI/AAAAAAAAAcA/rZZO69kJOo4Lo9xqJSl2vtDZFEPACcTwgCLcBGAsYHQ/s320/home2.jpg" class="d-block w-100  img-thumbnail" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <div class="centered text-center">
+      <p class="h">The Art Of FOOD</p>
+      <p class="hd">Taste Of INDIA</p>
+      <a href="#"><button>view more</button></a>
+    </div>
+  </div>
+
+  <div class="container-fluid wrapper">
+    <div class="row">
+      <div class="col-sm-3 col-6 wrapitems"><img src="https://1.bp.blogspot.com/-Cobe38U-NzI/XvW-vgSDmBI/AAAAAAAAAb8/g_WtgQlOJRo8IXnMkx5bz8cyTgTSVVk5gCLcBGAsYHQ/s320/home4.jpg" alt=""></div>
+      <div class="col-sm-3 col-6 wrapitems"><img src="https://1.bp.blogspot.com/-yfZPrUrb17M/XvW-wKQ6SNI/AAAAAAAAAcE/fusl-idCEe0XMNeoBL70Ig60PBP5v7gygCLcBGAsYHQ/s320/home5.jpg" alt=""></div>
+      <div class="col-sm-6 col-12">
+        <h1>Madhuban Restaurant</h1>
+        <p>Taste the difference.</p>
+        <p>We don’t make it ‘til you order it.</p>
+        <p>MON-FRI : <strong>10AM-10PM </strong></p>
+        <p>+91-9690027069</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="floating_div">
+    <div class="item1"><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
+    <div class="item2"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+    <div class="item3"><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
+    <div class="item4"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+  </div>
+  
+  
+  <div class="wrapper2">
+    <div class="wrapitems2">
+      <h1> 18</h1>
+      <p>Year's of experiance</p>
+    </div>
+    <div class="wrapitems2">
+      <h1>150+</h1>
+      <p>Menus/Dishes</p>
+    </div>
+    <div class="wrapitems2">
+      <h1>60+</h1>
+      <p>Staff's</p>
+    </div>
+    <div class="wrapitems2">
+      <h1>18,000+</h1>
+      <p>Happy Customers</p>
+    </div>
+  </div>
+
+  <div class="container-fluid customer">
+    <h1 class="customerhead">Customer Services</h1>
+    <div class="wrapper3">
+      <div class="wrapitems3"><img src="https://1.bp.blogspot.com/-ynAfHL2FY_8/XvW_qc4bnqI/AAAAAAAAAcw/PK68qXJZ7IYObXThsXV3eJPn2Zku_0mSACLcBGAsYHQ/s1600/meeting.png" alt="">
+        <h1>Family Function</h1>
+        <p>Joy can only be real if people look upon their life as a service and have a definite object in life outside themselves and their personal happiness</p>
+      </div>
+      <div class="wrapitems3"><img src="https://1.bp.blogspot.com/-NDsSE1NpK1o/XvW_qCcOQVI/AAAAAAAAAcs/_QBFCFHl_Fcx_xMtddUlQv-Yap27F5F3ACLcBGAsYHQ/s1600/meet.png" alt="">
+        <h1>Bussiness Meetings</h1>
+        <p>Although a great restaurant experience must include great food, a bad restaurant experience can be achieved
+          through bad service alone.
+          Ideally, service is invisible. You notice it only when something goes wrong.</p>
+      </div>
+      <div class="wrapitems3"><img src="https://1.bp.blogspot.com/-yTuFfJEMfc8/XvW_qmaCYcI/AAAAAAAAAc0/ezuU3oXXW1UviRdC1qUxVNpra6v0WEPGACLcBGAsYHQ/s1600/wedding.png alt="">
+        <h1>Wedding Party</h1>
+        <p>Sometimes you will never know the value of a moment until it becomes a memory. Visit our Restaurant make your
+          wedding a beautyfull memory.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid delivery">
+    <div class="wrapper8">
+      <div class="wrap-items8">
+        <img src="food-delivery.png" alt="">
+        <h2 class="pt-5" >EASY TO ORDER</h2>
+        <P class="p-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</P>
+      </div>
+      <div class="wrap-items8">
+        <img src="truck.png" alt="">
+        <h2 class="pt-5">FASTEST DELIVERY</h2>
+        <P class="p-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</P>
+      </div>
+      <div class="wrap-items8">
+        <img src="drink.png" alt="">
+        <h2 class="pt-5">QUALITY COFFEE</h2>
+        <P class="p-4">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</P>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="container-fluid master">
+    <h1 class="masterhead">Our Master Chef</h1>
+    <div class="wrapper4">
+      <div class="wrapitems4"><img src="https://1.bp.blogspot.com/-kyu415RSsv4/XvW_4AXquEI/AAAAAAAAAc8/NpcwHc-97Xsc4m4d9cLkw7en4yCYR0C6gCLcBGAsYHQ/s320/chef-1.jpg" alt="">
+        <h1>john Carten</h1>
+        <p>Head Chef</p>
+      </div>
+      <div class="wrapitems4"><img src="https://1.bp.blogspot.com/-HRa8dNDHrCg/XvW_4FFc_VI/AAAAAAAAAdA/FoceyQP_nJ8SMBWAiHyvyyOJT9zBtOeAQCLcBGAsYHQ/s320/chef-2.jpg" alt="">
+        <h1>Hayat Cristo</h1>
+        <p>Head Chef</p>
+      </div>
+      <div class="wrapitems4"><img src="https://1.bp.blogspot.com/-VKw6z8foRiQ/XvW_39JBPEI/AAAAAAAAAc4/YLt9vbylnIEdw9gUpOxw_RMGJodR3w33QCLcBGAsYHQ/s320/chef-3.jpg" alt="">
+        <h1>Kareem Khan</h1>
+        <p> Chef</p>
+      </div>
+      <div class="wrapitems4"><img src="https://1.bp.blogspot.com/-6cK_LmTyV_A/XvW_4kJw3oI/AAAAAAAAAdE/XFMQVYOZEnsHsUga34Cn0RIhx9phvwRHwCLcBGAsYHQ/s320/chef-4.jpg" alt="">
+        <h1>Shubham Pandey</h1>
+        <p> Chef</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid happycustomer">
+    <h1 class="happycustomerhead">Happy Customer's</h1>
+    <div class="wrapper5">
+      <div class="wrapitems5"><img src="https://1.bp.blogspot.com/-pFZDXrM3OqY/XvXBie9dKRI/AAAAAAAAAd8/JIuW1sOtGNkazS0QfPnlr5nuW0SlZMEHACLcBGAsYHQ/s320/person_1.jpeg" alt="">
+        <p>Had a very pleasant experience in restaurant.
+          Plenty of good quality food options spread over several serving stations, 
+          including cooked to order BBQ area which offered great lamb chops
+          Staff was very courteous and understood how to deal with customers very well !</p>
+        <h1>Akash Kumar</h1>
+      </div>
+      <div class="wrapitems5"><img src="https://1.bp.blogspot.com/-DfnFemeAQwk/XvXBiZxz9JI/AAAAAAAAAd4/3XETDw4a0NQHmPoHhhZuM9IkT4pyXoh_wCLcBGAsYHQ/s320/person_2.jpeg" alt="">
+        <p>I loved the place, location food atmosphere and most importantly the wonderful staff.
+          Plenty of good quality food options spread over several serving stations,
+           We are a family of 6 and had breakfast for 5 days in row and honestly i had nothing but good food and great service !</p>
+        <h1>Mohit Kumar</h1>
+      </div>
+      <div class="wrapitems5"><img src="https://1.bp.blogspot.com/-O5flU_giyxw/XvXMFbeSVPI/AAAAAAAAAfk/nwf5zrKdUJ81HTvgRqraRl-0rcoXX_oygCLcBGAsYHQ/s320/Screenshot%2B2020-06-26%2B15.11.17.png" alt="">
+        <p>We were there for Friday Brunch the service and the food was excellent!!! 
+          Plenty of good quality food options spread over several serving stations,
+          The staff there was very friendly and corporative. 
+          A special thanks to Chella, Vanessa and the very professional Manager Sagar. 
+          
+</p>
+        <h1>Rajnish Kumar</h1>
+      </div>
+      <div class="wrapitems5"><img src="https://1.bp.blogspot.com/-4UR5mAIQ1HY/XvXBieizbWI/AAAAAAAAAd0/JCu3Hx7guukTKc73YD5gwdHV7bWQjqUvACLcBGAsYHQ/s320/diksha.jpeg" alt="">
+        <p>Madhuban is a excellent place to go with family and have a quality time.
+           Buffet have a wide range of variety specially for the vegetarian with excellent dessert serving .
+            Awesome Ambience and racecourse view is a added to the really fantastic service .
+             Deserve all the praises for a five star brunch ...
+</p>
+        <h1>Diksha Singh</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid bottom">
+    <div class="bottom2">
+      <div class="bottomitems">
+        <h1>Madhuban</h1>
+        <p class="text-muted">This restaurant is for wedding party,family function and bussiness meeting. You will like
+          the food ,
+          arrangemant and service.
+        </p>
+        <p><i class="fa fa-instagram" aria-hidden="true" style="font-size:40px; padding: 10px;"></i>
+          <i class="fa fa-twitter" aria-hidden="true" style="font-size:40px; padding: 10px;"></i>
+          <i class="fa fa-facebook" aria-hidden="true" style="font-size:40px; padding: 10px;"></i>
+          <i class="fa fa-whatsapp" aria-hidden="true" style="font-size:40px; padding: 10px;"></i>
+        </p>
+      </div>
+      <div class="bottomitems text-muted">
+        <h1 style="color: white;">Open Hours</h1>
+        <p>Monday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 AM - 10 PM</p>
+        <p>Tuesday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 AM - 10 PM</p>
+        <p>Wednesday&nbsp; 10 AM - 10 PM</p>
+        <p>Thursday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10 AM - 10 PM</p>
+        <p>Friday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 AM - 10 PM</p>
+        <p>Saturday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 AM - 11 PM</p>
+        <p>Sunday&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 AM - 11 PM</p>
+      </div>
+      <div class="bottomitems ">
+        <h1>Instagram</h1>
+        <div class="collage">
+          <div class="row">
+            <div class="col-sm-6 mb-4" style="width: 100%"><img src="https://1.bp.blogspot.com/-bWkQyiNrYUY/XvXKPXI8C-I/AAAAAAAAAfA/VsU2UPrH7T48ySVcHgGJ7p8GgklhPr4EQCLcBGAsYHQ/s320/insta-4.jpg" alt=""></div>
+            <div class="col-sm-6 mb-4" style="width: 100%"><img src="https://1.bp.blogspot.com/-HL9-hr60kSw/XvXKOhOcDSI/AAAAAAAAAe0/IHA14yAuEekTr9NdSWHACdzO4orVy8sNgCLcBGAsYHQ/s320/insta-3.jpg" alt=""></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 mb-4"><img src="https://1.bp.blogspot.com/-ByR8ujX9xhk/XvXKOj3-8WI/AAAAAAAAAe4/aAolLJvllN0Zhj0SeRBzleGr4goLkWiPgCLcBGAsYHQ/s320/insta-2.jpg" alt=""></div>
+            <div class="col-sm-6 mb-4"><img src="https://1.bp.blogspot.com/-Up7M0O-UqVg/XvXKOgaKmmI/AAAAAAAAAe8/wYUIGtAuhhUCn3g0CibcekeK7qF4AFSZACLcBGAsYHQ/s320/insta-1.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="bottomitems">
+        <h1>Newsletter</h1>
+        <p style="padding: 50px;">Submit your email we contact you as soon as possible .</p>
+        <p><input type="email" placeholder="Enter Your Email" style="background: transparent; border: 1px solid gray; color: white;">
+        </p>
+        <p><Button type="submit">Submit</Button></p>
+      </div>
+    </div>
+    <h2 style="color: white; text-align: center; padding-bottom: 70px; padding-top: 70px;
+    font-size: 15px;
+    color: #bbb;;
+     font-family: Arial, Helvetica, sans-serif;"> &copy; Copyright 2020 All rights reserved | This Project is made with &#x2764;
+      by Madhuban<sup>&trade;</sup>.</h2>
+  </div>
+  <hr>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
